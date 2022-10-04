@@ -6,6 +6,7 @@
 
 <script>
 
+// We need to expor the components
 export default {
   name: 'HelloWorld',
   components: {
