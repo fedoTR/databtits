@@ -7,6 +7,8 @@ import store from './store'
 import PrimeVue from 'primevue/config';
 import Button from 'primevue/button';
 import ScrollPanel from 'primevue/scrollpanel';
+import Carousel from 'primevue/carousel';
+import MenuBar from 'primevue/menubar';
 
 // Themes and CSS
 import 'primevue/resources/themes/vela-green/theme.css';
@@ -20,6 +22,8 @@ const app = createApp(App).use(store).use(router)
 app.use(PrimeVue);
 app.component('OurButton', Button)
 app.component('OurScrollPanel', ScrollPanel)
+app.component('OurCarousel', Carousel)
+app.component('OurMenuBar', MenuBar)
 
 //Mounting
 app.mount('#app')

@@ -1,15 +1,18 @@
 <template>
   <div class="hello">
-    <OurButton label="Boton Verde"></OurButton>
   </div>
+  <OurMenuBar/>
 </template>
 
 <script>
+import OurMenuBar from './OurMenuBar.vue';
+
 
 // We need to expor the components
 export default {
   name: 'HelloWorld',
   components: {
+    OurMenuBar
 },
   props: {
     msg: String
